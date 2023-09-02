@@ -811,7 +811,7 @@ app.get('/logout', (req, res) => {
     res.json({ message: 'Logout successful.' });
   });
 });
-const serverPort = 3000;
+const serverPort = 4000;
 server.listen(serverPort, () => {
   console.log(`Server listening on port ${serverPort}`);
 });
